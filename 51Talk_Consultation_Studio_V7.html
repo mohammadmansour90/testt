@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0768F7">
+<title>51Talk | Consultation Studio V5 — First Call</title>
+<style>
+:root{--brand:#0865F7;--brand-deep:#034CCB;--blue-soft:#EAF3FF;--yellow:#FFE44A;--yellow-soft:#FFFAE0;--ink:#1C3352;--muted:#6B7D92;--border:#DEE8F3;--bg:#F6F9FE;--white:#fff;--green:#168E75;--shadow:0 14px 45px rgba(31,70,120,.075);--radius:20px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Segoe UI',Tahoma,Arial,sans-serif;font-size:14px;line-height:1.8}button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #89B9FF;outline-offset:2px}button:disabled{opacity:.55;cursor:not-allowed}a{color:var(--brand)}.wrap{max-width:1370px;margin:0 auto;padding:23px 22px 60px}.top{background:#fff;border:1px solid var(--border);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}.mast{min-height:160px;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:27px 31px;background:linear-gradient(117deg,#fff 47%,#EDF5FF 100%);position:relative;isolation:isolate}.mast:before{content:'';position:absolute;z-index:-1;width:240px;height:240px;border-radius:50%;background:#FFE44A53;left:70px;top:-155px}.brand{display:inline-flex;align-items:center;gap:8px;color:var(--brand);font-size:29px;line-height:1.2;font-weight:900;letter-spacing:-1.4px;direction:ltr}.bubble{display:grid;place-items:center;border-radius:14px;background:var(--yellow);width:43px;height:43px;transform:rotate(-8deg);box-shadow:0 6px 0 rgba(12,96,237,.08)}.bubble svg{width:25px;height:25px;transform:rotate(8deg)}.brand span{color:var(--brand)}.brand small{color:#F0B900;font-size:11px;letter-spacing:0;align-self:flex-end;line-height:1.4}.mast h1{margin:8px 0 0;font-size:29px;line-height:1.5;color:#15365e}.mast p{margin:0;color:#637993}.hero-right{display:flex;flex-direction:column;align-items:flex-start;gap:8px;flex-shrink:0}.hero-tag{background:#fff;border:1px solid #CFE0F8;border-radius:999px;padding:5px 12px;font-size:11px;color:#426795;font-weight:700}.highlight{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #dce9f9;border-radius:14px;padding:11px 14px;max-width:300px;color:#54708e;font-size:12px}.highlight i{font-style:normal;display:grid;place-items:center;min-width:35px;height:35px;color:#165fc2;background:#eaf3ff;border-radius:11px;font-weight:900;font-size:17px}.subnav{display:flex;gap:8px;padding:12px 24px;background:white;border-top:1px solid #EEF3F8;overflow:auto;scrollbar-width:thin}.subnav a{flex-shrink:0;text-decoration:none;font-weight:600;font-size:12px;background:#F5F8FD;border-radius:12px;padding:7px 12px;color:#58718e}.subnav a:hover{background:var(--blue-soft);color:var(--brand)}
+.layout{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(365px,.77fr);align-items:start;gap:18px;margin-top:18px}.card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:23px 25px;margin-bottom:18px;box-shadow:0 6px 22px rgba(25,74,123,.035)}.section-title{display:flex;align-items:start;gap:12px;margin-bottom:16px}.number{width:36px;height:36px;flex:0 0 36px;background:var(--yellow);color:#193f6a;border-radius:12px;display:grid;place-items:center;font-weight:900;font-size:13px}.section-title h2{font-size:20px;line-height:1.45;margin:0 0 2px;color:#183b65}.section-title p{color:var(--muted);margin:0;font-size:12px}.intro-label{font-size:11px;letter-spacing:.5px;color:var(--brand);font-weight:800;margin:0 0 9px}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 13px}.field{margin:9px 0}.field label{font-weight:700;font-size:12px;color:#355071;display:block;margin:0 0 6px}.field label small{font-weight:400;color:var(--muted)}input,textarea,select{width:100%;border:1px solid #D5E1EF;border-radius:11px;padding:11px 12px;background:#fff;color:#243C5B;transition:box-shadow .17s,border-color .17s}input:focus,textarea:focus,select:focus{border-color:var(--brand);box-shadow:0 0 0 3px #0865F711;outline:none}textarea{min-height:71px;resize:vertical;line-height:1.95}input::placeholder,textarea::placeholder{color:#97A5B5}.question{border:1px solid #C9DFFB;border-right:4px solid var(--brand);background:#F0F7FF;border-radius:12px 6px 6px 12px;padding:15px 16px;color:#163e70;font-size:16px;line-height:1.95;font-weight:700}.phase-goal{margin:11px 1px 14px;color:#75889a;font-size:12px}.transition{display:flex;gap:10px;align-items:baseline;background:#FAFCFE;border:1px dashed #C9D8E9;border-radius:11px;padding:9px 12px;margin-top:13px;color:#4A6580;font-size:12px}.transition strong{color:var(--brand);white-space:nowrap}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}.chip{background:#F5F9FE;border:1px solid #DCE8F7;border-radius:999px;color:#4D6A88;padding:5px 11px;font-size:12px}.chip:hover{background:#E9F3FF;border-color:#96C5FF}.extra{margin-top:14px}.examples summary{font-size:12px;color:#1A62C1;font-weight:800;cursor:pointer;list-style:none;display:flex;align-items:center;gap:7px}.examples summary:before{content:'+';display:grid;place-items:center;width:20px;height:20px;border-radius:6px;background:#EAF4FF;color:#0a67d4;font-weight:800;font-size:14px}.examples[open] summary:before{content:'−'}.examples-summary{color:var(--muted);font-size:11px;margin:7px 0 9px}.sample-list{display:grid;grid-template-columns:1fr 1fr;gap:7px}.sample{border:1px solid #E0E9F3;border-radius:10px;background:#FBFDFF;color:#455d79;padding:9px 10px;text-align:right;line-height:1.65;font-size:12px}.sample.active,.sample:hover{background:#EAF4FF;border-color:#84B7F8;color:#1558A8}.guided{display:none;margin-top:10px;padding:12px 13px;border-radius:12px;background:#FFFCF0;border:1px solid #FAECA7;font-size:12px;line-height:2}.guided.visible{display:block}.guided b{color:#83620b}.guided p{margin:3px 0 8px}.guided p:last-child{margin-bottom:0}.notes-hint{font-size:11px;color:#8799aa;margin:5px 0 0}.aside{position:sticky;top:15px}.aside .card{padding:23px}.reporthead{display:flex;gap:9px;align-items:center;justify-content:space-between}.reporthead h2{margin:0;font-size:19px}.preview-flag{font-size:10px;border-radius:999px;background:var(--yellow-soft);color:#876a00;padding:4px 10px;font-weight:800}.progress-label{display:flex;justify-content:space-between;gap:15px;color:#71859b;font-size:11px;margin:14px 0 7px}.progress-label strong{color:#244e80}.track{height:7px;background:#edf3fb;border-radius:999px;overflow:hidden}.track span{display:block;width:0;height:100%;background:linear-gradient(90deg,#0c70fe,#78baff);transition:width .2s}.seg{background:#F0F5FD;border-radius:12px;padding:4px;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin:17px 0}.seg button{border:0;border-radius:9px;background:transparent;color:#56728d;padding:9px 4px;font-weight:700;font-size:11px;line-height:1.4}.seg button.active{background:white;color:#065DD8;box-shadow:0 3px 11px #1256ba12}.output{min-height:390px;background:#FBFDFF;font-size:13px;line-height:2.1;white-space:pre-wrap}.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:0;border-radius:11px;padding:10px 16px;background:var(--brand);color:#fff;font-weight:800;font-size:13px}.btn:hover{background:var(--brand-deep)}.btn.yellow{background:var(--yellow);color:#244e82}.btn.yellow:hover{background:#ffd63d}.btn.ghost{background:#ECF3FD;color:#235C9B}.btn.ghost:hover{background:#dceafc}.status{margin:10px 0 0;color:#69819a;font-size:11px;min-height:20px}.report-notice{border-right:3px solid #7db8ff;border-radius:9px;background:#F5FAFF;padding:11px 13px;color:#52708d;font-size:11px;margin-top:15px}.tiny{color:#8595a7;font-size:11px}.recap-output{margin:12px 0 16px;border:1px solid #DBE9F8;border-radius:13px;background:#FAFCFF;padding:16px;min-height:93px;font-size:13px;white-space:pre-wrap;line-height:2}.bridge{background:#EFF7FE;border:1px solid #d1e6fb;border-radius:12px;padding:14px;font-size:12px;color:#315d87;white-space:pre-wrap;line-height:1.95}.info{padding:12px 14px;border-radius:10px;background:#FFFAE7;color:#796627;font-size:12px;border:1px solid #F8EEBA;margin:15px 0}.source-note{margin:7px 0 0;font-size:12px;color:#7b8ba1}.rule{display:flex;align-items:center;gap:8px;background:#EAF4FF;border-radius:11px;color:#336691;font-size:12px;padding:10px 13px;margin:5px 0 13px}.rule strong{color:#034EBF}.objection{border:1px solid #EBEFF6;border-radius:12px;padding:13px;margin:10px 0;background:#F9FBFE}.objection summary{color:#1d4e88;cursor:pointer;font-weight:800;font-size:12px}.objection p{font-size:12px;color:#4f6b85;margin:10px 0 0}.footer{text-align:center;color:#8798aa;font-size:11px;margin-top:18px}.soon{font-size:11px;color:#7a8ea4}.copy-inline{display:flex;justify-content:flex-start}.divider{height:1px;background:#edf1f6;margin:16px 0}
+
+/* Actionable suggested answers */
+.quick-head{display:flex;gap:7px;align-items:center;margin-top:10px;font-size:11px;color:#647e99;font-weight:700}
+.quick-head:before{content:'↳';font-weight:900;color:var(--brand);font-size:15px}
+.chip{transition:all .18s;display:inline-flex;align-items:center;gap:6px}
+.chip:before{content:'+';display:grid;place-items:center;background:#e5f0ff;color:#0b63cb;border-radius:50%;width:17px;height:17px;font-size:12px;font-weight:bold}
+.chip.selected{background:#e6f6f2;border-color:#83c6b1;color:#116b57}
+.chip.selected:before{content:'✓';background:#bce8db;color:#116b57}
+.sample{position:relative;padding-inline-end:27px}
+.sample:after{content:'+';position:absolute;inset-inline-end:10px;top:9px;color:#0865F7;font-weight:900}
+.sample.active:after{content:'✓';color:#168E75}
+.quick-help{font-size:11px;color:#8291a2;margin-top:5px}
+
+@media(max-width:1080px){.layout{grid-template-columns:minmax(0,1fr) minmax(320px,.83fr)}.card{padding:20px}.sample-list{grid-template-columns:1fr}}
+@media(max-width:845px){.layout{grid-template-columns:1fr}.aside{position:static}.mast{align-items:start}.hero-right{display:none}.aside .output{min-height:260px}}
+@media(max-width:560px){.wrap{padding:10px 9px 35px}.mast{padding:20px}.mast h1{font-size:24px}.mast p{font-size:12px}.brand{font-size:25px}.subnav{padding:9px}.card,.aside .card{padding:17px 15px;border-radius:16px}.section-title h2{font-size:18px}.question{font-size:15px}.two{grid-template-columns:1fr;gap:0}.sample-list{grid-template-columns:1fr}.seg button{font-size:10px}.transition{display:block}.transition strong{display:block}}
+@media print{.top .subnav,.aside,.actions,.samples,.examples,button,.footer{display:none!important}.layout{display:block}.card{box-shadow:none;break-inside:avoid}body{background:#fff}.wrap{padding:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="mast">
+    <div>
+      <div class="brand"><span class="bubble"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 7.5C3 5.02 5.01 3 7.5 3h9C18.99 3 21 5.02 21 7.5v6c0 2.49-2.01 4.5-4.5 4.5H11l-5.5 3v-3.5A4.5 4.5 0 0 1 3 13.5v-6Z" stroke="#0865F7" stroke-width="2" stroke-linejoin="round"/><circle cx="8" cy="10.5" r="1.1" fill="#0865F7"/><circle cx="12" cy="10.5" r="1.1" fill="#0865F7"/><circle cx="16" cy="10.5" r="1.1" fill="#0865F7"/></svg></span><span>51Talk</span><small>CONSULTATION</small></div>
+      <h1>الاستشارة التعليمية | كشف الحاجة</h1>
+      <p>First Call — نبدأ بالثقة وفهم الدافع، لا بعرض الباقة.</p>
+    </div>
+    <div class="hero-right"><span class="hero-tag">7 مراحل مترابطة</span><div class="highlight"><i>51</i><span>اسمع القصة أولاً، ثم حدّد الأولوية، وبعدها توصية مبنية على التقييم.</span></div></div>
+  </div>
+  <nav class="subnav"><a href="#student">بيانات الطالب</a><a href="#personality-section">شخصية الطالب</a><a href="#discovery">كشف الاحتياج</a><a href="#confirmation">التلخيص التأكيدي</a><a href="#appointment">التقييم والتسجيل</a><a href="#report">Generate Report</a></nav>
+</header>
+<div class="layout">
+<main>
+  <section class="card" id="student">
+    <div class="section-title"><span class="number">01</span><div><h2>بيانات الطالب</h2><p>معلومات تعريفية فقط — ابدأ بعدها مباشرة بسؤال الشخصية.</p></div></div>
+    <div class="two">
+      <div class="field"><label for="child">اسم الطالب</label><input id="child" placeholder="مثال: محمد" autocomplete="off"></div>
+      <div class="field"><label for="parent">مخاطبة ولي الأمر</label><input id="parent" placeholder="مثال: أبو محمد / أم سلطان" autocomplete="off"></div>
+      <div class="field"><label for="age">العمر</label><input id="age" placeholder="مثال: 8 سنوات"></div>
+      <div class="field"><label for="grade">الصف الدراسي</label><input id="grade" placeholder="مثال: ثالث ابتدائي"></div>
+      <div class="field"><label for="school">اسم المدرسة</label><input id="school" placeholder="مثال: مدرسة الأمل"></div>
+      <div class="field"><label for="schoolType">نوع المدرسة</label><select id="schoolType"><option value="">اختر نوع المدرسة</option><option value="حكومية">حكومية</option><option value="أهلية">أهلية</option><option value="عالمية (إنترناشيونال)">عالمية (إنترناشيونال)</option></select></div>
+    </div>
+  </section>
+  <div id="personality-section"></div>
+  <div id="discovery"></div>
+<section class="card" id="optional-bank"><div class="section-title"><span class="number">+</span><div><h2>أسئلة اختيارية حسب مجرى الحديث</h2><p>لا تسألها كلها؛ اختر السؤال فقط إذا احتجت توضيحاً إضافياً.</p></div></div><div id="questionBank" class="chips"></div><div class="field"><label for="optionalNotes">ملاحظات إضافية عن الملاءمة أو القرار</label><textarea id="optionalNotes" placeholder="ما يحتاجه ولي الأمر في البرنامج، جدول الأسرة، المشاركون بالقرار..."></textarea></div></section>
+  <section class="card" id="confirmation">
+    <div class="section-title"><span class="number">09</span><div><h2>التلخيص التأكيدي</h2><p>هنا تثبت لولي الأمر أنك استمعت وفهمت. اعرض تلخيصاً قابلاً للتصحيح، وليس تقرير حكم على مستوى الطفل.</p></div></div>
+    <div class="rule"><strong>جملة البداية:</strong> «خلّني أتأكد إني فهمتك قبل ما نتكلم عن أي برنامج...»</div>
+    <div class="actions"><button class="btn" id="makeRecap">صياغة التلخيص التأكيدي</button><button class="btn ghost" id="copyRecap">نسخ التلخيص</button></div>
+    <div class="recap-output" id="recapBox" aria-live="polite">عبّئ ملاحظاتك أثناء المكالمة، ثم اضغط «صياغة التلخيص التأكيدي».</div>
+    <div class="field"><label for="correction">تأكيد ولي الأمر أو تصحيحه <small>اكتب فقط ما قاله بالفعل</small></label><textarea id="correction" rows="2" placeholder="مثال: صحيح، بس أهم شيء ما يكره اللغة بسبب الضغط..."></textarea></div>
+    <div class="field"><label for="focus">الجانب التعليمي المقترح للتحقق منه في الحصة <small>ليس تشخيصاً للمستوى</small></label><select id="focus"><option value="">اختر بناءً على كلام ولي الأمر</option><option value="speaking">المحادثة وتكوين الجمل</option><option value="confidence">الثقة والمشاركة</option><option value="phonics">التأسيس وأصوات الحروف</option><option value="reading">القراءة</option><option value="school">فهم المنهج المدرسي</option><option value="habits">التفاعل والالتزام</option></select></div>
+    <div class="bridge" id="bridgeBox">بعد اختيار الجانب، يظهر لك: ما الذي ينبغي التحقق منه في التقييم؟ وكيف يمكن ملاحظة التقدم لاحقاً؟</div>
+  </section>
+  <section class="card" id="appointment">
+    <div class="section-title"><span class="number">10</span><div><h2>التقييم والتسجيل</h2><p>اختم بخطوة واضحة، وسجّل تحديث إدارة التسجيل إذا توفر لديك.</p></div></div>
+    <div class="two">
+      <div class="field"><label for="session">موعد الحصة التقييمية <small>بتوقيت السعودية</small></label><input id="session" placeholder="مثال: الثلاثاء 7:00 مساءً"></div>
+      <div class="field"><label for="followup">موعد مراجعة النتيجة مع ولي الأمر</label><input id="followup" placeholder="مثال: بعد الحصة بنصف ساعة"></div>
+      <div class="field"><label for="seats">المقاعد المتبقية بحسب قسم التسجيل</label><input id="seats" type="number" min="0" step="1" placeholder="مثال: 3"></div>
+      <div class="field"><label for="deadline">آخر موعد وفق تحديث قسم التسجيل <small>اختياري</small></label><input id="deadline" placeholder="مثال: اليوم 7 مساءً"></div>
+    </div>
+    <div class="field"><label for="extra">ملاحظات المستشار الداخلية</label><textarea id="extra" placeholder="تفاصيل متابعة، انطباعات تحتاج للتحقق منها، سؤال للمكالمة الثالثة..."></textarea></div>
+    <p class="source-note">عدد المقاعد الذي تدخله يظهر تلقائياً في الرسالة. استخدم آخر معلومة صحيحة وصلتك من قسم التسجيل.</p>
+  </section>
+  <section class="card" id="concerns">
+    <div class="section-title"><span class="number">11</span><div><h2>كلام ولي الأمر والدافع المحتمل وسؤال التحقق</h2><p>أمثلة من رسالتك لاستخدامها بحسب إجابة ولي الأمر.</p></div></div>
+    <div id="objections"></div>
+  </section>
+</main>
+<aside class="aside" id="report">
+  <section class="card">
+    <div class="reporthead"><h2>Generate Report</h2><span class="preview-flag">مخصص لكل طالب</span></div>
+    <p class="source-note">اختَر إجابات العميل أو اكتب ملاحظاته، ثم أنشئ تلخيصاً واضحاً يحفظ المعنى دون اختراع معلومات.</p>
+    <div class="progress-label"><span>اكتمال مراحل الاستشارة</span><strong id="progressNumber">0 من 7</strong></div>
+    <div class="track"><span id="progressFill"></span></div>
+    <p class="tiny" id="progressHint">ابدأ بشخصية الطالب، ثم اكتشف سبب الاهتمام.</p>
+    <div class="seg" role="tablist" aria-label="نوع التقرير"><button type="button" class="active" data-mode="whatsapp">واتساب مختصر</button><button type="button" data-mode="recap">تلخيص المكالمة</button><button type="button" data-mode="internal">تقرير داخلي مختصر</button></div>
+    <div class="field"><label for="output" id="outputTitle">رسالة واتساب مرتبة — مهارات بعلامات ✅ وقابلة للتعديل</label><textarea id="output" class="output" placeholder="سجّل معلومات المكالمة ثم اضغط Generate Report"></textarea></div>
+    <div class="actions"><button class="btn" id="generate">Generate Report</button><button class="btn yellow" id="copy">نسخ الرسالة</button><button class="btn ghost" id="reset">طالب جديد</button></div>
+    <p id="status" class="status" role="status">يعمل الموقع محلياً دون إرسال بيانات الطلاب إلى خادم.</p>
+    <div class="report-notice"><strong>تنبيه مهني:</strong> المخرجات تعكس ما ذكره ولي الأمر فقط وليست نتيجة تقييم. الصياغة محلية وفق قوالب لغوية محسّنة؛ راجعها قبل مشاركتها، خاصة إذا كانت ملاحظاتك مختصرة أو غير واضحة.</div>
+  </section>
+</aside>
+</div>
+<footer class="footer">51Talk-inspired consultation workspace · أداة محلية للمستشار، غير متصلة بأنظمة 51Talk الرسمية · حافظ على خصوصية بيانات الطلاب.</footer>
+</div>
+<script>
+'use strict';
+const phases=[{"id":"persona","n":"02","title":"شخصية الطالب واهتماماته","purpose":"بيانات تمهيدية عن الطفل حسب طلبك السابق قبل أسئلة كشف الحاجة.","q":"«كيف توصف شخصية ولدك؟ وإيش أكثر شيء يحبّه ويتحمّس يتكلم عنه؟»","transition":"«جميل، خلينا الآن نفهم إيش اللي خلاكم تحجزون الحصة.»","fields":[{"id":"personality","label":"شخصيته كما وصفها ولي الأمر","placeholder":"خجول، اجتماعي، هادئ..."},{"id":"interests","label":"اهتماماته","placeholder":"ليغو، كرة قدم، ألعاب..."}],"ex":[["خجول بالبداية","يحتاج وقت عشان يرتاح.","هل يختلف تفاعله لما يكون مع ناس يعرفهم؟"],["اجتماعي","يميل للتفاعل مع الآخرين.","هل يتفاعل بالإنجليزي بنفس الطريقة؟"],["يحب كرة القدم","الكرة من الأشياء اللي يتحمّس لها.","هل يحب يحكي عن المباريات؟"]]},{"id":"reason","n":"03","title":"كشف الدافع — لماذا حجز الآن؟","purpose":"لا تكتفِ بإجابة عامة مثل «أبي أقوي الإنجليزي».","q":"«وش اللي خلاك تسجّل لولدك بالحصة التقييمية؟»","transition":"«أكيد، وخلنا نحدد الصورة أكثر من موقف حصل معه.»","fields":[{"id":"reason","label":"لماذا يريد البدء الآن؟","placeholder":"اكتب كلام ولي الأمر أو اختر إجابة"}],"ex":[["أبي أقوّي الإنجليزي","أكيد، بس التقوية ممكن تعني أكثر من جانب.","لو نحدد شغلة وحدة تتحسن أولًا، بتكون المحادثة، فهم المدرسة، القراءة، ولا الثقة وهو يتكلم؟"],["المعلمة اشتكت","كانت فيه ملاحظة من المدرسة خلتك تتحرك.","وش قالت المعلمة بالتحديد؟"],["علاماته نزلت","تراجع العلامات لفت انتباهك.","صار موقف معين خلاك تحس إنه لازم تبدأ معه الآن؟"],["يعرف بس يخاف يتكلم","فهمت، عنده معرفة لكن متردد يستخدمها.","هل اللي يشغلك أكثر مهارته في الكلام أو ثقته وهو يتكلم؟"]]},{"id":"story","n":"04","title":"الموقف الذي كشف المشكلة","purpose":"انتقل من «ضعيف بالإنجليزي» إلى شيء حدث فعلاً.","q":"«صار موقف معيّن خلاك تحس إنه لازم تبدأ معه الآن؟»","transition":"«فهمت الموقف، خلنا نحدد الجانب اللي لو تحسّن أول يفرق معه.»","fields":[{"id":"story","label":"الموقف الحقيقي كما رواه ولي الأمر","placeholder":"المعلمة اشتكت، العلامات نزلت، يعرف بس يتردد..."}],"ex":[["المعلمة اشتكت","ملاحظة المدرسة كانت دافع مهم.","وش قالت المعلمة تحديدًا؟"],["علاماته نزلت","الدرجات صار لها أثر واضح عندكم.","أي جزء في المادة سبّب له صعوبة؟"],["يعرف الجواب بس ما يحكي","يعرف بعض الإجابات لكنه لا يستخدمها وقت المشاركة.","هل تتوقع السبب خوفه من الغلط أو صعوبة تكوين الجملة؟"],["بتعب معه بالواجب","الواجب صار يأخذ جهد منكم.","هل المشكلة في فهم السؤال أو إنه يحتاجك بكل خطوة؟"]]},{"id":"priority","n":"05","title":"تحديد الأولوية الحقيقية","purpose":"ما المهارة التي ستحدث أول فرق ملموس للأسرة؟","q":"«من كل الأمور اللي حكيناها، وش أهم شغلة نبدأ فيها؟»","transition":"«طيب ليش هذا الموضوع تحديداً هو اللي يشغلك؟»","fields":[{"id":"priority","label":"الأولوية الأولى","placeholder":"المحادثة، فهم المدرسة، القراءة، الثقة..."}],"ex":[["أبي يتأسس صح","الأمان عندك يبدأ من التأكد من الأساس.","يعني أهم شيء عندك نتأكد إنه فاهم الأساس قبل ما نتقدم؟"],["يعرف الجواب بس ما يحكي","الأولوية عندك ثقته في استخدام اللي يعرفه.","فهدفك يستخدم اللي يعرفه ويحكي براحة؟"],["أبي يكون متميز","التفوّق له معنى مهم بالنسبة لك.","التميّز عندك تقيسه بالعلامات، ولا بمستوى اللغة واستخدامها؟"],["أبي يلحق مستوى الصف","يهمك يواكب متطلبات مرحلته الدراسية.","تبغاه حالياً يلحق مستوى الصف، ولا هدفك يصير متقدم فيه؟"]]},{"id":"impact","n":"06","title":"فهم أثر المشكلة وقيمتها","purpose":"اعرف ما يشغل ولي الأمر وما الذي تغيّره المشكلة في البيت أو المدرسة.","q":"«وش الموضوع اللي يشغلك أكثر بخصوص مستواه؟ وكيف يأثر على ولدك أو عليكم بالبيت؟»","transition":"«مفهوم. إذا تحسن هذا الجانب، وش الفرق اللي تتمنى تشوفه؟»","fields":[{"id":"impact","label":"أثر المشكلة على الطفل أو الأسرة","placeholder":"يتعبون في الواجب، خجل من المشاركة، قلق من مستوى الصف..."}],"ex":[["بتعب معه بالواجب","واضح إن المذاكرة فيها ضغط عليكم.","تبغاه يصير يعتمد على نفسه أكثر ويخف التوتر وقت الدراسة؟"],["ما يشارك في المدرسة","المشاركة والثقة من الأشياء اللي تهمك.","فهدفك يستخدم اللي يعرفه ويحكي براحة؟"],["ما أبي أجبره","تقبّل الطفل للتعلم عندك أساسي.","يعني نجاح التجربة عندك يبدأ من إنه يحب يحضر ويلتزم؟"],["خايف يتأخر عن صفه","الاستمرار مع مستوى المدرسة مهم لك.","تبغاه يلحق مستوى الصف أو يتقدم عليه؟"]]},{"id":"goal","n":"07","title":"التغيير الذي سيعني النجاح","purpose":"دع ولي الأمر يعرّف النتيجة التي يعتبرها قيمة حقيقية.","q":"«وإذا تحسّن بهالموضوع، وش أكثر فرق تتمنى تشوفه عليه؟»","transition":"«هذا التغيير اللي نحتاج نبني عليه الخطوة الجاية. بقي نعرف اللي ممكن يمنع التجربة من النجاح.»","fields":[{"id":"goal","label":"التغيير المطلوب","placeholder":"يتكلم براحة، يعتمد على نفسه، يلحق الصف..."}],"ex":[["يتكلم بثقة","تبي يستخدم اللغة براحة قدام الآخرين.","وش التغيير اللي لو شفته تقول فعلاً استفاد من الاشتراك؟"],["يعتمد على نفسه في الواجب","الاستقلالية بتكون علامة تحسن واضحة لك.","وش أول شيء تتمنى يقدر يسويه بدون مساعدتك؟"],["يتأسس صح","تبي تطمئن على أساسه قبل ما يتقدم.","وش تتمنى تشوفه يقدر يسوي بعد التأسيس؟"],["يصير متميز","تبي تشوف تفوق ملموس.","التميّز عندك بالعلامات، ولا باستخدام اللغة؟"]]},{"id":"concern","n":"08","title":"تجنّب تكرار المشكلة والملاءمة","purpose":"اكشف مخاوف ولي الأمر وتجربته قبل شرح أي برنامج.","q":"«جرّبتوا شيء قبل؟ وش عجبكم أو ما ناسبكم فيه؟ وش أكثر شيء مخوّفك من الاشتراك أو التعليم أونلاين؟»","transition":"«خلّني أتأكد إني فهمتك قبل ما نتكلم عن أي برنامج.»","fields":[{"id":"prior","label":"التجربة السابقة إن وجدت","placeholder":"جربنا قبل وما استفاد..."},{"id":"concern","label":"المخاوف وشروط الملاءمة","placeholder":"الالتزام، الملل، الجدول، قرار الأسرة..."}],"ex":[["جرّبت ودفعت وما استفاد","من الطبيعي تبي تتجنب تكرار نفس التجربة.","وش كان ناقص بالتجربة الماضية حتى ما نكرر نفس المشكلة؟"],["ما أبي أجبره","تقبّل ولدك للحصص شيء مهم عندك.","يعني نجاح التجربة عندك يبدأ من إنه يحب يحضر ويلتزم؟"],["خايف من التعليم أونلاين","تبي تتأكد إنه أسلوب مناسب له فعلاً.","وش لازم يكون موجود بالبرنامج حتى تحس إنه مناسب لكم؟"],["جدولنا مزدحم","الالتزام لازم يناسب المدرسة والبيت.","كيف نرتّب التعلم مع المدرسة وجدولكم بالبيت؟"],["الأب بيشارك في القرار","تبي القرار يكون واضح للأسرة.","مين كمان تحب يطّلع على الخطة ويشاركك بالقرار؟"]]}];
+const quickAnswers={"personality":["خجول بالبداية","اجتماعي","هادئ","نشيط"],"interests":["الليغو","كرة القدم","الألعاب"],"reason":["أبي أقوّي الإنجليزي","المعلمة اشتكت","علاماته نزلت","يعرف بس يخاف يتكلم","أبي يتأسس صح"],"story":["المعلمة اشتكت","علاماته نزلت","يعرف الجواب بس ما يحكي","بتعب معه بالواجب"],"priority":["المحادثة","فهم المدرسة","القراءة","الثقة وهو يتكلم","التأسيس","يلحق مستوى الصف","يكون متميز"],"impact":["بتعب معه بالواجب","ما يشارك في المدرسة","ما أبي أجبره","خايف يتأخر عن صفه"],"goal":["يتكلم بثقة","يعتمد على نفسه في الواجب","يتأسس صح","يصير متميز","يلحق مستوى الصف","يحب يحضر ويلتزم"],"prior":["جرّبت ودفعت وما استفاد","ما جربنا قبل"],"concern":["ما أبي أجبره","خايف من التعليم أونلاين","جدولنا مزدحم","الأب بيشارك في القرار","أبغى متابعة واضحة"]};
+const objections=[["«بدي يتأسس صح»","«يعني أهم شيء عندك نتأكد إنه فاهم الأساس قبل ما نتقدم؟»"],["«يعرف الجواب بس ما يحكي»","«فهدفك يستخدم اللي يعرفه ويحكي براحة؟»"],["«بتعب معه بالواجب»","«تبغاه يصير يعتمد على نفسه أكثر ويخف التوتر وقت الدراسة؟»"],["«بدي يكون متميز»","«التميّز عندك تقيسه بالعلامات، ولا بمستوى اللغة واستخدامها؟»"],["«جرّبت ودفعت وما استفاد»","«وش كان ناقص بالتجربة الماضية حتى ما نكرر نفس المشكلة؟»"],["«ما أبي أجبره»","«يعني نجاح التجربة عندك يبدأ من إنه يحب يحضر ويلتزم؟»"]];
+const $=id=>document.getElementById(id);
+const raw=id=>$(id)?.value?.trim()||'';
+const clean=(v,max=160)=>{let t=(v||'').replace(/\s+/g,' ').replace(/[\n\r\t]+/g,' ').trim().replace(/[،,؛;.؟?!]+$/,'');const fixes=[[/الانجليزي/g,'الإنجليزي'],[/الانجليزية/g,'الإنجليزية'],[/الحصه/g,'الحصة'],[/مايقدر/g,'ما يقدر'],[/مايعرف/g,'ما يعرف'],[/الاونلاين/g,'الأونلاين']];for(const [from,to] of fixes)t=t.replace(from,to);return t.length>max?t.slice(0,max).replace(/\s+\S*$/,'').trim()+'…':t};
+const v=(id,max=180)=>clean(raw(id),max);
+const quote=(s)=>`«${s}»`;
+const newLine=arr=>arr.filter(Boolean).join('\n\n');
+function sectionMarkup(phase){
+ return `<section class="card" id="phase-${phase.id}">
+ <div class="section-title"><span class="number">${phase.n}</span><div><h2>${phase.title}</h2><p>${phase.purpose}</p></div></div>
+ <div class="question" data-question="${phase.id}">${phase.q}</div>
+ <div class="phase-goal">اسأل السؤال الأساسي، ثم استمع. إذا كانت الإجابة عامة، اختر سؤال متابعة واحداً فقط.</div>
+ ${phase.fields.map(f=>`<div class="field"><label for="${f.id}">${f.label}</label><textarea id="${f.id}" rows="2" placeholder="${f.placeholder}"></textarea>
+ <div class="quick-head">إجابات متوقعة — اضغط لإضافتها إلى الملاحظات</div>
+ <div class="chips">${(quickAnswers[f.id]||[]).map(c=>`<button type="button" class="chip" data-target="${f.id}" data-chip="${c}" aria-pressed="false">${c}</button>`).join('')}</div>
+ <div class="quick-help">يمكنك تحديد أكثر من إجابة أو تعديل النص يدوياً. اضغط مرة ثانية لإزالة الاختيار.</div></div>`).join('')}
+ <div class="transition"><strong>جملة الانتقال</strong><span>${phase.transition}</span></div>
+ <details class="extra examples"><summary>كيف يرد العميل؟ وماذا تقول بعد إجابته؟</summary>
+ <p class="examples-summary">اضغط إجابة لإضافتها إلى الملاحظات، ومعرفة الرد العاكس وسؤال المتابعة المناسب. لا تحدد إجابة لم يقلها ولي الأمر.</p>
+ <div class="sample-list">${phase.ex.map((ex,i)=>`<button class="sample" type="button" data-phase="${phase.id}" data-index="${i}">${quote(ex[0])}</button>`).join('')}</div>
+ <div class="guided" id="guide-${phase.id}"></div></details>
+ </section>`
+}
+$('personality-section').innerHTML=sectionMarkup(phases[0]);
+$('discovery').innerHTML=phases.slice(1).map(sectionMarkup).join('');
+const supplementalQuestions=['وش أكثر شيء مخوّفك من الاشتراك أو تجربة التعليم أونلاين؟','وش الموضوع اللي يشغلك أكثر بخصوص مستواه؟','وش لازم يكون موجود بالبرنامج حتى تحس إنه مناسب لكم؟','كيف نرتّب التعلم مع المدرسة وجدولكم بالبيت؟','جرّبتوا شيء قبل؟ وش عجبكم أو ما ناسبكم فيه؟','مين كمان تحب يطّلع على الخطة ويشاركك بالقرار؟','تبغاه حالياً يلحق مستوى الصف، ولا هدفك يصير متقدم فيه؟','وش التغيير اللي لو شفته تقول: أنا استفدت من الاشتراك؟'];
+$('questionBank').innerHTML=supplementalQuestions.map((q,i)=>`<button class="chip" type="button" data-optional="${i}">${q}</button>`).join('');
+for(const btn of document.querySelectorAll('[data-optional]'))btn.addEventListener('click',()=>{const t=supplementalQuestions[+btn.dataset.optional];$('optionalNotes').value=($('optionalNotes').value?$('optionalNotes').value+'\n':'')+'سؤال: '+t+'\nالإجابة: ';$('optionalNotes').focus()});
+$('objections').innerHTML=objections.map(([q,a])=>`<details class="objection"><summary>${q}</summary><p>${a}</p></details>`).join('');
+function answerParts(text){return text.split(/،\s*/).map(x=>x.trim()).filter(Boolean)}
+function hasAnswer(id,token){return answerParts(raw(id)).includes(token)}
+function syncChoices(){for(const btn of document.querySelectorAll('[data-chip]')){const on=hasAnswer(btn.dataset.target,btn.dataset.chip);btn.classList.toggle('selected',on);btn.setAttribute('aria-pressed',String(on))}for(const btn of document.querySelectorAll('[data-phase]')){const p=phases.find(x=>x.id===btn.dataset.phase),i=+btn.dataset.index,field=p.id==='concern'&&i!==0?'concern':p.id==='concern'?'prior':p.fields[0].id;btn.classList.toggle('active',hasAnswer(field,p.ex[i][0]))}}
+function toggleAnswer(id,token){let items=answerParts(raw(id));const index=items.indexOf(token);if(index<0)items.push(token);else items.splice(index,1);$(id).value=items.join('، ');$(id).dispatchEvent(new Event('input',{bubbles:true}));syncChoices()}
+for(const btn of document.querySelectorAll('[data-chip]'))btn.addEventListener('click',()=>{toggleAnswer(btn.dataset.target,btn.dataset.chip)});
+for(const btn of document.querySelectorAll('[data-phase]'))btn.addEventListener('click',()=>{
+ const p=phases.find(x=>x.id===btn.dataset.phase),i=+btn.dataset.index,item=p.ex[i],box=$('guide-'+p.id);
+ const field=p.id==='concern'?(i===0?'prior':'concern'):p.fields[0].id;
+ toggleAnswer(field,item[0]);
+ box.textContent='';for(const [title,text] of [['الرد العاكس',item[1]],['سؤال المتابعة',item[2]]]){const line=document.createElement('p'),b=document.createElement('b');b.textContent=title+' : ';line.appendChild(b);line.appendChild(document.createTextNode(quote(text)));box.appendChild(line)}box.classList.add('visible')
+});
+function progress(){const done=[['personality','interests'],['reason'],['story'],['priority'],['impact'],['goal'],['prior','concern']].filter(ids=>ids.some(x=>!!raw(x))).length;$('progressNumber').textContent=`${done} من 7`;$('progressFill').style.width=(done*100/7)+'%';$('progressHint').textContent=done===7?'اكتملت المراحل. راجع التلخيص مع ولي الأمر.':done<=2?'خذ وقتك في فهم شخصية الطفل وسبب الاهتمام.':'ركّز على الخانات المهمة؛ ليس ضرورياً سؤال كل شيء إذا ذكره تلقائياً.'}
+function nameChild(){return v('child',50)||'الطالب'}
+function recap(){
+ const n=nameChild(),bits=[];
+ if(raw('reason'))bits.push(`بدأ اهتمامكم بالحصة التقييمية لأن ${v('reason',155)}`);
+ if(raw('story'))bits.push(`وذكرت موقفاً مهمّاً: ${v('story',180)}`);
+ if(raw('priority'))bits.push(`ومن بين الجوانب اللي ناقشناها، الأولوية عندك هي ${v('priority',150)}`);
+ if(raw('impact'))bits.push(`لأن الوضع الحالي مرتبط بـ ${v('impact',155)}`);
+ if(raw('goal'))bits.push(`والتغيير اللي تعتبره علامة استفادة هو ${v('goal',155)}`);
+ if(raw('prior'))bits.push(`وبالنسبة لتجربتكم السابقة، ذكرت ${v('prior',135)}`);
+ if(raw('concern'))bits.push(`وأهم شيء نراعيه قبل أي قرار هو ${v('concern',135)}`);
+ const story=bits.length?bits.join('؛ ')+'؛':'ما زلت بحاجة لأعرف سبب الحجز والموقف والنتيجة المطلوبة.';
+ return `خلّني أتأكد إني فهمت احتياج ${n} بالشكل الصحيح.\n\n${story}\n\nبالتالي، الخطوة المناسبة الآن هي التحقق من مستواه وملاءمة طريقة التعلّم في الحصة التقييمية، ثم ربط أي توصية باحتياجه الفعلي وكيف نقدر نلاحظ التقدم.\n\nهل هذا يلخّص قصدك بدقة؟ وفي شيء أهم ما ذكرناه؟`;
+}
+const plans={speaking:['نتحقق من قدرته على فهم السؤال والرد بكلمات ثم جمل قصيرة أثناء التقييم.','القدرة على الرد بجمل مناسبة لمستواه ومحاولة بدء المحادثة.'],confidence:['نلاحظ تفاعله التدريجي مع المعلم ومتى يتردد في المشاركة.','زيادة محاولات المشاركة والرد، مع مراعاة طبيعته وتقبله.'],phonics:['نتحقق من تمييز أصوات الحروف والمزج وقراءة كلمات مناسبة.','القدرة على التعامل مع أصوات الحروف وكلمات تناسب مستواه.'],reading:['نلاحظ فك الكلمات وفهم نصوص بسيطة مناسبة للمرحلة.','قراءة كلمات أو نص قصير مع مساعدة أقل بمرور الوقت.'],school:['نفهم هل المشكلة في قراءة السؤال أو المفردات أو تطبيق المهارة.','إتمام أنشطة مدرسية مناسبة باستقلالية أكبر.'],habits:['نلاحظ مدى تفاعله في الحصة ومدى مناسبة الموعد وطريقة التعلم.','حضور منتظم ومشاركة مناسبة دون افتراض نتيجة مضمونة.']};
+function updateBridge(){const p=plans[raw('focus')];$('bridgeBox').textContent=p?`الاحتياج الذي نتحقق منه: ${v('priority',120)||'بحسب تقييم الطالب'}\nما نراجعه في الخدمة/التقييم: ${p[0]}\nكيف نلاحظ التقدم: ${p[1]}`:'اختر جانباً أعلاه لعرض ما يمكن التحقق منه في الحصة ومؤشر متابعة مناسب.'}
+function availability(){const s=raw('seats');if(!s)return '';const n=Number(s),unit=n===1?'مقعد واحد':n===2?'مقعدين':n>=3&&n<=10?'مقاعد':'مقعداً';return `وبحسب آخر تحديث من قسم التسجيل، المتاح حالياً ${s} ${unit}${raw('deadline')?' حتى '+v('deadline',55):''}، وفق التوفر واستكمال إجراءات التسجيل.`}
+function whatsappSkills(){
+ const priority=raw('priority').toLowerCase();
+ if(!priority)return [];
+ const names=[
+  [/محادث|تحدث|يتكلم|الكلام|تكوين الجمل|يحكي/, 'المحادثة وتكوين الجمل'],
+  [/قراء|يقرأ/, 'القراءة'],
+  [/ثقة|المشاركة|يشارك|خجول/, 'الثقة والمشاركة'],
+  [/فهم المدرسة|المنهج|المدرسة|الواجب|مستوى الصف|يلحق/, 'فهم المنهج المدرسي'],
+  [/التأسيس|يتأسس|أصوات|فونكس|الحروف/, 'التأسيس وأصوات الحروف']
+ ];
+ const skills=[];
+ for(const [pattern,label] of names)if(pattern.test(priority)&&!skills.includes(label))skills.push(label);
+ // Retain unfamiliar priorities in the parent's own words rather than inventing skills.
+ if(!skills.length)return answerParts(v('priority',145)).slice(0,3);
+ return skills.slice(0,4);
+}
+function whatsapp(){
+ const n=nameChild(),parent=v('parent',70)||'ولي الأمر';
+ const blocks=[`حياك الله يا ${parent}،`, `سعدت بحديثنا اليوم. هذا ملخص ما فهمته عن احتياج ${n}:`];
+ if(raw('story'))blocks.push(`لفت انتباهي الموقف اللي ذكرته: ${quote(v('story',145))}.`);
+ else if(raw('reason'))blocks.push(`ذكرت أن سبب اهتمامكم بالتقييم هو ${v('reason',125)}.`);
+ const skills=whatsappSkills();
+ if(skills.length)blocks.push(`وبناءً على حديثنا، الجوانب اللي تهمك أكثر:
+${skills.map(x=>'✅ '+x).join('\n')}`);
+ if(raw('goal'))blocks.push(`والتغيير اللي تتمنى تشوفه على ${n} هو ${v('goal',130)}.`);
+ if(raw('concern'))blocks.push(`وأخذت بعين الاعتبار ما ذكرته بخصوص ${v('concern',105)}.`);
+ blocks.push(`الخطوة القادمة هي الحصة التقييمية، حتى نتحقق من مستواه ونناقش معك خطة مناسبة لاحتياجه.`);
+ if(raw('session'))blocks.push(`موعد التقييم: ${v('session',65)} بتوقيت السعودية.`);
+ if(raw('seats'))blocks.push(availability());
+ blocks.push('مع خالص التقدير،\nمنصور | المستشار التعليمي\n51Talk');
+ return newLine(blocks);
+}
+function internal(){
+ const parts=[`51Talk | ملخص الاستشارة الأولى`,`بيانات الطالب`];
+ const identity=[];
+ if(raw('child'))identity.push(`الاسم: ${v('child',70)}`);
+ if(raw('parent'))identity.push(`ولي الأمر: ${v('parent',70)}`);
+ if(raw('age'))identity.push(`العمر: ${v('age',35)}`);
+ if(raw('grade'))identity.push(`الصف: ${v('grade',60)}`);
+ if(identity.length)parts.push(identity.join(' | '));
+ const school=[];
+ if(raw('school'))school.push(`المدرسة: ${v('school',90)}`);
+ if(raw('schoolType'))school.push(`نوعها: ${v('schoolType',55)}`);
+ if(school.length)parts.push(school.join(' | '));
+ const fields=[['شخصية الطالب','personality'],['الاهتمامات','interests'],['سبب الحجز الآن','reason'],['الموقف الذي رواه ولي الأمر','story'],['الأولوية التعليمية','priority'],['أثر المشكلة','impact'],['التغيير المطلوب','goal']];
+ for(const [label,id] of fields){if(raw(id))parts.push(`${label}: ${v(id,240)}`)}
+ parts.push('المعلومات أعلاه من إفادات ولي الأمر، وتحتاج التحقق بالتقييم.');
+ return parts.join('\n');
+}
+let mode='whatsapp';function generate(){const text=mode==='whatsapp'?whatsapp():mode==='recap'?recap():internal();$('output').value=text;$('status').textContent=mode==='whatsapp'?'راجع ما كُتب قبل الإرسال؛ الأمثلة الاسترشادية لا تدخل في الرسالة.':mode==='recap'?'اقرأ التلخيص واترك للأهل فرصة تصحيحه.':'التقرير الداخلي جاهز للمراجعة والحفظ في النظام المعتمد.'}
+for(const btn of document.querySelectorAll('[data-mode]'))btn.addEventListener('click',()=>{mode=btn.dataset.mode;document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b===btn));$('outputTitle').textContent=mode==='whatsapp'?'رسالة واتساب قصيرة وشخصية':mode==='recap'?'تلخيص تأكيدي تتحدث به أثناء المكالمة':'تقرير داخلي مختصر';generate()});
+async function copy(s){if(!s.trim())return false;try{await navigator.clipboard.writeText(s)}catch(e){const temp=document.createElement('textarea');temp.value=s;temp.style.position='fixed';temp.style.top='-1000px';document.body.appendChild(temp);temp.select();document.execCommand('copy');temp.remove()}return true}
+$('generate').addEventListener('click',generate);
+$('makeRecap').addEventListener('click',()=>{$('recapBox').textContent=recap()});
+$('copyRecap').addEventListener('click',async()=>{$('recapBox').textContent=recap();if(await copy($('recapBox').textContent))$('status').textContent='تم نسخ التلخيص التأكيدي.'});
+$('copy').addEventListener('click',async()=>{if(await copy($('output').value))$('status').textContent='تم نسخ التقرير.'});
+$('reset').addEventListener('click',()=>{if(!confirm('مسح ملاحظات الطالب الحالي والبدء بطالب جديد؟'))return;document.querySelectorAll('input,textarea,select').forEach(el=>{if(el.tagName==='SELECT')el.selectedIndex=0;else el.value=''});$('recapBox').textContent='عبّئ ملاحظاتك أثناء المكالمة، ثم اضغط «صياغة التلخيص التأكيدي».';updateBridge();progress();syncChoices();$('status').textContent='تم تجهيز النموذج لطالب جديد.'});
+$('focus').addEventListener('change',updateBridge);
+document.addEventListener('input',event=>{if(event.target.matches('input,select,textarea')){progress();if(event.target.id!=='output')syncChoices()}});
+progress();updateBridge();syncChoices();
+</script>
+</body></html>
